@@ -7,20 +7,16 @@ header .BG_image {
     background-repeat: no-repeat;
     background-size: cover;
 }
-header .BG_image .navigation {
+.navigation {
     display: flex;
     justify-content: space-around;
     padding-top: 51px;
     align-items: center;
+    
 
 }
 .navigation nav ul {
     display: flex;
-}
-.BG_image .navigation p {
-    color: #D9F0FF;
-    font-size: 28px;
-    font-family: 'Dancing Script', cursive;
 }
 .navigation nav ul li a {
     margin-right: 25px;
@@ -29,7 +25,14 @@ header .BG_image .navigation {
     font-family: 'Poppins', sans-serif;
     font-weight: medium;
 }
-header .BG_image p {
+.BG_image_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1018px;
+    height: 145px;
+    z-index: 10;
     font-size: 100px;
     color: #FFFFFF;
     text-align: center;
